@@ -3,5 +3,5 @@
 PUID=${PUID:-911}
 PGID=${PGID:-911}
 
-addgroup -g "$PGID" abc
-adduser -H -D -s /bin/false -u "$PUID" abc abc
+addgroup -S -g "$PGID" abc
+adduser -S -H -D -s /bin/false -u "$PUID" -G abc abc

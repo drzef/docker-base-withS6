@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv sh
+
+ mkdir -p \
+	/app \
+	/config \
+	/defaults
+
+chown abc:abc /app
+chown abc:abc /config
+chown abc:abc /defaults
